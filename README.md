@@ -1,4 +1,4 @@
-# Gráfico para ilustrar evolución del indicador de Capacidad Instalada Industrial, publicado por el INDEC.
+# Código para graficar evolución del indicador de Capacidad Instalada Industrial en Argentina, publicado por el INDEC todos los meses.
 
 El scrpipt es una adaptación del original, desarrollado por [James Keirstead](https://github.com/jkeirstead)
 
