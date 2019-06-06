@@ -59,3 +59,29 @@ plot_slopegraph <- function(df) {
     scale_y_continuous(name="", breaks=yvals, labels=ylabs)
   return(gg)
 }  
+
+
+############################################################
+############################## Estética ##############################
+############################################################
+
+tema <- caption = "Fuente: Elaboración propia en base al INDEC.") +
+  theme(axis.title = element_blank(), 
+        axis.ticks = element_blank(), 
+        plot.title = element_text(hjust = 1, 
+                                  vjust = 10, 
+                                  family = "American Typewriter", 
+                                  face = "bold", 
+                                  size = 14, 
+                                  lineheight = 1), 
+        plot.subtitle = element_text(hjust = 1, 
+                                     vjust = 5, 
+                                     family = "American Typewriter", 
+                                     face="italic"), 
+        plot.caption = element_text(hjust = 1, 
+                                    vjust = -6, 
+                                    family = "American Typewriter", 
+                                    face="plain"), 
+        axis.text = element_text(family = "American Typewriter", 
+                                 face="bold"), 
+        plot.margin = unit(c(2.5,1,1,1), "cm"))
