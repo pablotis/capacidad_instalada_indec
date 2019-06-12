@@ -68,13 +68,9 @@ pacman::p_load(dplyr, ggplot2, openxlsx, reshape2, gghighlight)
 
 theme_set(theme_classic())
 
-tema <- labs(title = "Utilización (%) de la capacidad instalada en la industria según
-       bloques sectoriales.",
-             subtitle = "Período Serie Marzo 2016 - 2019.",
-             caption = "Fuente: Elaboración propia en base al INDEC.") +
-  theme(axis.title = element_blank(), 
-        axis.ticks = element_blank(), 
-        plot.title = element_text(hjust = 1, 
+tema <- theme(axis.title = element_blank(), 
+                      axis.ticks = element_blank(), 
+                      plot.title = element_text(hjust = 1, 
                                   vjust = 10, 
                                   family = "American Typewriter", 
                                   face = "bold", 
