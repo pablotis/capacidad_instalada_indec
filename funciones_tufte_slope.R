@@ -64,6 +64,10 @@ plot_slopegraph <- function(df) {
 ############################################################
 ############################## Estética ##############################
 ############################################################
+pacman::p_load(dplyr, ggplot2, openxlsx, reshape2, gghighlight)
+
+theme_set(theme_classic())
+
 tema <- labs(title = "Utilización (%) de la capacidad instalada en la industria según
        bloques sectoriales.",
              subtitle = "Período Serie Marzo 2016 - 2019.",
