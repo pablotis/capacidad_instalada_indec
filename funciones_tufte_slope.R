@@ -64,8 +64,10 @@ plot_slopegraph <- function(df) {
 ############################################################
 ############################## Estética ##############################
 ############################################################
-
-tema <- caption = "Fuente: Elaboración propia en base al INDEC.") +
+tema <- labs(title = "Utilización (%) de la capacidad instalada en la industria según
+       bloques sectoriales.",
+             subtitle = "Período Serie Marzo 2016 - 2019.",
+             caption = "Fuente: Elaboración propia en base al INDEC.") +
   theme(axis.title = element_blank(), 
         axis.ticks = element_blank(), 
         plot.title = element_text(hjust = 1, 
@@ -78,10 +80,10 @@ tema <- caption = "Fuente: Elaboración propia en base al INDEC.") +
                                      vjust = 5, 
                                      family = "American Typewriter", 
                                      face="italic"), 
-        plot.caption = element_text(hjust = 1, 
+        plot.caption  = element_text(hjust = 1, 
                                     vjust = -6, 
                                     family = "American Typewriter", 
                                     face="plain"), 
-        axis.text = element_text(family = "American Typewriter", 
+        axis.text     = element_text(family = "American Typewriter", 
                                  face="bold"), 
-        plot.margin = unit(c(2.5,1,1,1), "cm"))
+        plot.margin   = unit(c(2.5,1,1,1), "cm"))
