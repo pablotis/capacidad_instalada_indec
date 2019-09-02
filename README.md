@@ -3,6 +3,8 @@
 El scrpipt es una adaptación del original, desarrollado por [James Keirstead](https://github.com/jkeirstead)
 
 Para hacer:
-* Automatizar descarga y carga de tabla desde INDEC
-* Estructurar archivo a tabla plana
-* Automatizar inclusión de nuevos meses y etiquetas de meses por calendario
+* --> Falta: Generar función con script 
+* --> Falta: En salida de gráfico: Línea roja cuando baja / Línea verde cuando sube / Línea negra-gris cuando se mantiene
+* --> Listo: Automatizar descarga y carga de tabla desde INDEC
+* --> Listo: Estructurar archivo a tabla plana --> Listo
+* --> Listo: Automatizar inclusión de nuevos meses y etiquetas de meses por calendario
