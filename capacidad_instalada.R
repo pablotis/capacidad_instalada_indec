@@ -7,8 +7,8 @@ capacidad_instalada_orig <- read_excel(temp, sheet = "UCI - NG y bloques")
 
 capacidad_instalada <- capacidad_instalada_orig %>% 
   drop_na() %>%
-  set_colnames(., capacidad_instalada[1, ]) %>% 
-  slice(., 2:n())
+  set_colnames(.[1, ]) %>%
+  slice(2:n())
 
 capacidad_instalada$anio <- NA
 capacidad_instalada$anio[1:12] <- 2016
